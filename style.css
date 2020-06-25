@@ -84,6 +84,8 @@ button {
     font-size: 150%;
     color: rgb(241, 241, 241);
     font-family: 'Noto Sans SC', sans-serif;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 
 }
 
@@ -107,14 +109,139 @@ button:active {
 
 }
 
-#generate-password-button {
+@media screen and (max-width: 576px) {
 
-    margin-right: 2.5%;
-    
+    h1 {
+
+        margin: 0;
+
+    }
+
+    section {
+
+        margin: 30px 0;
+        padding: 20px;
+        background-color: rgb(27, 27, 27);
+
+    }
+
+    h2 {
+
+        text-align: center;
+
+    }
+
+    #password {
+
+        background-color: rgb(27, 27, 27);
+
+    }
+
 }
 
-#clip-copy-button {
+@media screen and (max-width: 425px) {
 
-    margin-left: 2.5%;
-    
+    h1 {
+
+        font-size: 250%;
+        padding: 25px 0;
+
+    }
+
+    section {
+
+        margin: 20px 0;
+
+    }
+
+    h2 {
+
+        font-size: 175%;
+
+    }
+
+    #password {
+
+        font-size: 110%;
+
+    }
+
+    button {
+
+        font-size: 125%;
+
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    h1 {
+
+        font-size: 225%;
+        padding: 20px 0;
+
+    }
+
+    section { 
+        
+        margin: 15px 0;
+
+    }
+
+    h2 {
+
+        font-size: 150%;
+        padding-bottom: 15px;
+
+    }
+
+    #password {
+
+        font-size: 100%;
+
+    }
+
+    .button-container {
+
+        padding-top: 25px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    h1 {
+
+        font-size: 190%;
+        padding: 15px 0;
+
+    }
+
+    section {
+
+        margin: 10px 0;
+
+    }
+
+    h2 {
+
+        font-size: 135%;
+        padding-bottom: 12px;
+
+    }
+
+    .button-container {
+
+        padding-top: 20px;
+
+    }
+
+    button {
+
+        font-size: 100%;
+
+    }
+
 }

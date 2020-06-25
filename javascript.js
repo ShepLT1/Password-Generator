@@ -87,6 +87,18 @@ document.getElementById("generate-password-button").onclick = function() {
 
         }
 
-    }, 500);
+    }, 100);
 
 }
+
+document.getElementById("clip-copy-button").onclick = function() {
+
+    var copyPass =  document.getElementById("password");
+
+    copyPass.select();
+
+    copyPass.setSelectionRange(0, 99999);
+
+    document.execCommand("copy");
+
+};

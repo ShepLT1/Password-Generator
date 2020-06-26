@@ -102,13 +102,6 @@ button:active {
 
 }
 
-.restore-button {
-
-    box-shadow: none;
-    transform: scale(1);
-
-}
-
 @media screen and (max-width: 576px) {
 
     body {

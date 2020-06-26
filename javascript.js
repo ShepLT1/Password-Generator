@@ -7,7 +7,7 @@ var lowerChar = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d"
 
 function toUpper(x) {
     
-    return x.toUpperCase();
+     return x.toUpperCase();
 
 }
 
@@ -87,7 +87,7 @@ document.getElementById("generate-password-button").onclick = function() {
 
         }
 
-    }, 100);
+    }, 200);
 
 }
 

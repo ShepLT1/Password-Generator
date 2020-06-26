@@ -5,6 +5,8 @@ body {
     color: rgb(241, 241, 241);
 }
 
+/* Page Title Styling */
+
 h1 {
 
     margin: 0 5%;
@@ -15,6 +17,8 @@ h1 {
 
 }
 
+/* Main Content Container Styling */
+
 section {
 
     margin: 45px 5%;
@@ -24,6 +28,8 @@ section {
 
 }
 
+/* Main Content Title Styling */
+
 h2 {
 
     border-bottom: 2px teal solid;
@@ -31,6 +37,8 @@ h2 {
     font-size: 200%;
 
 }
+
+/* Password Container Styling */
 
 .password-container {
 
@@ -46,6 +54,8 @@ h2 {
 
 }
 
+/* Password Text Area Styling */
+
 #password {
 
     font-size: 125%;
@@ -60,11 +70,15 @@ h2 {
 
 }
 
+/* Password Text Area Styling while Focused */
+
 #password:focus {
 
     outline: none;
 
 }
+
+/* Button Container Styling */
 
 .button-container {
 
@@ -74,6 +88,8 @@ h2 {
     justify-content: center;
 
 }
+
+/* Generate Password & Clipboard Copy Button Styling */
 
 button {
 
@@ -89,11 +105,15 @@ button {
 
 }
 
+/* Generate Password & Clipboard Copy Button Styling while Focused */
+
 button:focus {
 
     outline: none;
 
 }
+
+/* Generate Password & Clipboard Copy Button Styling while Active */
 
 button:active {
 
@@ -102,6 +122,8 @@ button:active {
 
 }
 
+/* Screen responsiveness at 576px */
+
 @media screen and (max-width: 576px) {
 
     body {
@@ -109,6 +131,8 @@ button:active {
         background-color: rgb(35, 35, 35);
 
     }
+
+    /* Page Title responsiveness at 576px */
     
     h1 {
 
@@ -116,6 +140,8 @@ button:active {
         background-color: rgb(27, 27, 27); 
 
     }
+
+    /* Main Content Container responsiveness at 576px */
 
     section {
 
@@ -125,11 +151,15 @@ button:active {
 
     }
 
+    /* Main Content Container Title responsiveness at 576px */
+
     h2 {
 
         text-align: center;
 
     }
+
+    /* Password Text area responsiveness at 576px */
 
     #password {
 
@@ -139,7 +169,11 @@ button:active {
 
 }
 
+/* Screen Responsiveness at 425px */
+
 @media screen and (max-width: 425px) {
+
+    /* Page Title responsiveness at 425px */
 
     h1 {
 
@@ -148,11 +182,15 @@ button:active {
 
     }
 
+    /* Main Content Container responsiveness at 425px */
+
     section {
 
         margin: 20px 0;
 
     }
+
+    /* Main Content Container Title responsiveness at 425px */
 
     h2 {
 
@@ -160,11 +198,15 @@ button:active {
 
     }
 
+    /* Password Text area responsiveness at 425px */
+
     #password {
 
         font-size: 110%;
 
     }
+
+    /* Generate Password & Clipboard Copy Button responsiveness at 425px */
 
     button {
 
@@ -176,6 +218,8 @@ button:active {
 
 @media screen and (max-width: 375px) {
 
+    /* Page Title responsiveness at 375px */
+
     h1 {
 
         font-size: 225%;
@@ -183,11 +227,15 @@ button:active {
 
     }
 
+    /* Main Content Container responsiveness at 375px */
+
     section { 
         
         margin: 15px 0;
 
     }
+
+    /* Main Content Container Title responsiveness at 375px */
 
     h2 {
 
@@ -196,11 +244,15 @@ button:active {
 
     }
 
+    /* Password Text area responsiveness at 375px */
+
     #password {
 
         font-size: 100%;
 
     }
+
+    /* Generate Password & Clipboard Copy Button Container responsiveness at 375px */
 
     .button-container {
 
@@ -212,6 +264,8 @@ button:active {
 
 @media screen and (max-width: 320px) {
 
+    /* Page Title responsiveness at 320px */
+
     h1 {
 
         font-size: 190%;
@@ -219,11 +273,15 @@ button:active {
 
     }
 
+    /* Main Content Container responsiveness at 320px */
+
     section {
 
         margin: 10px 0;
 
     }
+
+    /* Main Content Container Title responsiveness at 320px */
 
     h2 {
 
@@ -232,11 +290,15 @@ button:active {
 
     }
 
+    /* Generate Password & Clipboard Copy Button Container responsiveness at 320px */
+
     .button-container {
 
         padding-top: 20px;
 
     }
+
+    /* Generate Password & Clipboard Copy Button responsiveness at 320px */
 
     button {
 

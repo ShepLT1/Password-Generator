@@ -2,7 +2,7 @@
 
 ## Description
 
-For this project, I was asked to create a password generator that probvides a random password based on user-selected criteria.
+For this project, I was asked to create a password generator that provides a random password based on user-selected criteria.
 
 ## User-Selected Criteria
 

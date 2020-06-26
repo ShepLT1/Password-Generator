@@ -28,7 +28,7 @@ For this project, I was asked to create a password generator that probvides a ra
 
 ## Preview
 
-![Alt text](images/Password-Generator.png?raw=true "Password Generator Preview Image")
+![Alt text](Images/Password-Generator.png?raw=true "Password Generator Preview Image")
 
 ## Github Link
 
